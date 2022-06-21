@@ -1,0 +1,56 @@
+body{
+    color: #8a909d;
+    background:#eee;
+    margin-top:20px;
+}
+
+@media (min-width: 992px){
+    .card-default {
+        margin-bottom: 2rem;
+    }
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: 0.25rem;
+}
+
+.card-default .card-header {
+    padding-top: 1.875rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: none;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+.p-4 {
+    padding: 1.25rem !important;
+}
+
+a{
+    text-decoration:none;    
+    font :white;
+}
+
+.contact-list img {
+    margin: 2px;
+    width:100px;
+    height:100px;
+}
+.btn-primary{
+    background-color:rgb(51, 51, 124)
+    
+ }
+ h4{
+     color: darkblue;
+     
+ }
